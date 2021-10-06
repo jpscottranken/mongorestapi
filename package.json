@@ -1,0 +1,29 @@
+{
+  "name": "mongorestapi",
+  "version": "1.0.0",
+  "description": "This is a simple REST API using Node.js and the MongoDB database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpscottranken/mongorestapi.git"
+  },
+  "author": "Jeff Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpscottranken/mongorestapi/issues"
+  },
+  "homepage": "https://github.com/jpscottranken/mongorestapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
